@@ -1,0 +1,45 @@
+import { Providers } from "../providers/ThemeProvider";
+import Script from "next/script";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bitcoin Merchant Community",
+  description: "Bitcoin Merchant Community - Connect, Learn, and Grow with Bitcoin Payments",
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: "Bitcoin Merchant Community",
+    images: [
+      {
+        url: '/assets/og-image.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    url: 'https://www.bitcoin-merchant-community.com/',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/assets/og-image.png'],
+  },
+  viewport: 'width=device-width, minimum-scale=1.0, maximum-scale=1.0',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang='en'>
+      <head>
+        <link rel='stylesheet' href='https://use.typekit.net/gaq1ohg.css' />
+      </head>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
+    </html>
+  );
+}
+
