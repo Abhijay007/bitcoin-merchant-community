@@ -6,7 +6,7 @@ import { Box, Heading, Text, Button, Flex, Image, Container } from '@chakra-ui/r
 const HeroSection = () => {
     return (
         <Box 
-            bg="#F5F5F5" 
+            bg="white" 
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >

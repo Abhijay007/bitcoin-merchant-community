@@ -6,7 +6,7 @@ import { Box, Heading, Text, Flex, Image, Container } from '@chakra-ui/react';
 const CreditCardSection = () => {
     return (
         <Box 
-            bg="white" 
+            bg="#F5F5F5" 
             py={{ base: "60px", md: "80px", lg: "100px" }}
             px={{ base: "20px", md: "40px", lg: "60px" }}
         >

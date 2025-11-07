@@ -3,7 +3,7 @@ import { Box, Flex, Image, Text, Link as ChakraLink } from '@chakra-ui/react';
 
 const Header = () => {
     return (
-        <Box bg="white" borderBottom="2px solid #000">
+        <Box bg="white">
             <Flex
                 as="nav"
                 align="center"

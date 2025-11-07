@@ -1,25 +1,32 @@
 "use client"; 
 
 import React from "react";
-import { Box, Heading, Text, Container } from "@chakra-ui/react";
-import { ColorProvider } from "@/providers/ColorProvider";
+import { Box } from "@chakra-ui/react";
+import Header from "@/components/Header/Header";
+import HeroSection from "@/components/HeroSection/HeroSection";
+import CreditCardSection from "@/components/CreditCardSection/CreditCardSection";
+import CommunitySection from "@/components/CommunitySection/CommunitySection";
+import ReceiveBitcoinSection from "@/components/ReceiveBitcoinSection/ReceiveBitcoinSection";
+import AcceptBitcoinSection from "@/components/AcceptBitcoinSection/AcceptBitcoinSection";
+import AlternativePaymentSection from "@/components/AlternativePaymentSection/AlternativePaymentSection";
+import OnboardMerchantsSection from "@/components/OnboardMerchantsSection/OnboardMerchantsSection";
+import FAQSection from "@/components/FAQSection/FAQSection";
+import Footer from "@/components/Footer/Footer";
 
 const Home = () => {
   return (
-    <>
-      <ColorProvider>
-        <Container maxW="container.xl" py={20}>
-          <Box textAlign="center">
-            <Heading as="h1" size="2xl" mb={6}>
-              Bitcoin Merchant Community
-            </Heading>
-            <Text fontSize="xl" color="gray.600">
-              Welcome to the Bitcoin Merchant Community platform
-            </Text>
-          </Box>
-        </Container>
-      </ColorProvider>
-    </>
+    <Box>
+      <Header />
+      <HeroSection />
+      <CreditCardSection />
+      <CommunitySection />
+      <ReceiveBitcoinSection />
+      <AcceptBitcoinSection />
+      <AlternativePaymentSection />
+      <OnboardMerchantsSection />
+      <FAQSection />
+      <Footer />
+    </Box>
   );
 };
 
