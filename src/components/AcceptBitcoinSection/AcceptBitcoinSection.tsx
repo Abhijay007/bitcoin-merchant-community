@@ -66,7 +66,7 @@ const AcceptBitcoinSection = () => {
 
                 <Flex
                     direction={{ base: "column", lg: "row" }}
-                    gap={{ base: "30px", lg: "100px" }}
+                    gap={{ base: "40px", md: "50px", lg: "200px" }}
                 >
                     {/* Left Column - Setup Steps */}
                     <Box

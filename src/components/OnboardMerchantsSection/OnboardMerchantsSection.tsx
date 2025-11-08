@@ -41,8 +41,8 @@ const OnboardMerchantsSection = () => {
                     >
                         <Heading 
                             as="h2"
-                            fontSize={{ base: "32px", md: "40px", lg: "48px" }}
-                            fontWeight="900"
+                            fontSize={{ base: "32px", md: "40px", lg: "32px" }}
+                            fontWeight="700"
                             lineHeight="1.2"
                             mb={6}
                             color="black"
@@ -51,7 +51,7 @@ const OnboardMerchantsSection = () => {
                         </Heading>
 
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             mb={6}
                             color="black"
@@ -61,7 +61,7 @@ const OnboardMerchantsSection = () => {
 
                         <Link 
                             href="#" 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             fontWeight="700"
                             color="black"
                             textDecoration="underline"
@@ -81,6 +81,7 @@ const OnboardMerchantsSection = () => {
 };
 
 export default OnboardMerchantsSection;
+
 
 
 

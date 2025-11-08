@@ -15,18 +15,20 @@ const AlternativePaymentSection = () => {
                 {/* Introduction Text */}
                 <Box mb={{ base: "40px", md: "50px" }}>
                     <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.7"
                         mb={5}
                         color="black"
+                        maxW="450px"
                     >
                         <Text as="span" fontWeight="700">If you don't use Square</Text> or are outside the US, you'll need to pick a point-of-sale solution that accepts instant bitcoin payments. There are several to choose from.
                     </Text>
 
                     <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.7"
                         color="black"
+                        maxW="450px"
                     >
                         We've selected some favorites that merchants have told us work well for them.
                     </Text>
@@ -48,9 +50,10 @@ const AlternativePaymentSection = () => {
                             mb={4}
                         />
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
+                            maxW="450px"
                         >
                             IBEX Pay is a web-based bitcoin point-of-sale solution that works on any device with a web browser.
                         </Text>
@@ -66,9 +69,10 @@ const AlternativePaymentSection = () => {
                             mb={4}
                         />
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
+                            maxW="450px"
                         >
                             Blink Wallet is a custodial bitcoin wallet for mobile with simple point-of-sale features and easy setup.
                         </Text>
@@ -84,9 +88,10 @@ const AlternativePaymentSection = () => {
                             mb={4}
                         />
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
+                            maxW="450px"
                         >
                             Zaprite lets you connect a third-party wallet to self-custody any bitcoin you receive.
                         </Text>
@@ -102,9 +107,10 @@ const AlternativePaymentSection = () => {
                             mb={4}
                         />
                         <Text 
-                            fontSize={{ base: "16px", md: "18px" }}
+                            fontSize={{ base: "16px", md: "20px" }}
                             lineHeight="1.7"
                             color="black"
+                            maxW="450px"
                         >
                             Swiss Bitcoin Pay is an option that many EU merchants have adopted. It allows automatic conversions to fiat currency.
                         </Text>
@@ -114,10 +120,11 @@ const AlternativePaymentSection = () => {
                 {/* Bottom Section */}
                 <Box>
                     <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.7"
                         mb={5}
                         color="black"
+                        maxW="450px"
                     >
                         <Text as="span" fontWeight="700">Who makes the cut?</Text> We listen to merchants and spotlight solutions that are already popular and have a reputation for easy use. If there's a bitcoin point-of-sale solution we're missing,{' '}
                         <Link 
@@ -133,9 +140,10 @@ const AlternativePaymentSection = () => {
                     </Text>
 
                     <Text 
-                        fontSize={{ base: "16px", md: "18px" }}
+                        fontSize={{ base: "16px", md: "20px" }}
                         lineHeight="1.7"
                         color="black"
+                        maxW="450px"
                     >
                         If you want to learn more about getting up and running with one of these options, join our friendly{' '}
                         <Link 
@@ -156,6 +164,7 @@ const AlternativePaymentSection = () => {
 };
 
 export default AlternativePaymentSection;
+
 
 
 

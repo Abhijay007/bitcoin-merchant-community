@@ -14,11 +14,12 @@ const FAQSection = () => {
                 {/* Main Heading */}
                 <Heading 
                     as="h2"
-                    fontSize={{ base: "36px", md: "44px", lg: "52px" }}
+                    fontSize={{ base: "36px", md: "44px", lg: "32px" }}
                     fontWeight="900"
                     lineHeight="1.2"
                     mb={{ base: "40px", md: "60px" }}
                     color="black"
+                    maxW="480px"
                 >
                     Frequently Asked Questions
                 </Heading>
@@ -43,8 +44,8 @@ const FAQSection = () => {
                                 What is bitcoin?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
-                                lineHeight="1.7"
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"                                lineHeight="1.7"
                                 color="black"
                             >
                                 Bitcoin is a secure digital currency that lets you send, spend, and save your money without relying on banks or other third-parties—just like cash.
@@ -64,7 +65,8 @@ const FAQSection = () => {
                                 What are bitcoin payments?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -85,7 +87,8 @@ const FAQSection = () => {
                                 What are the fees?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 mb={3}
                                 color="black"
@@ -93,7 +96,8 @@ const FAQSection = () => {
                                 Bitcoin fees vary depending on the point-of-sale system you use.
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 mb={3}
                                 color="black"
@@ -112,7 +116,8 @@ const FAQSection = () => {
                                 .
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -133,7 +138,8 @@ const FAQSection = () => {
                                 What about bitcoin's volatility?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 mb={3}
                                 color="black"
@@ -141,7 +147,8 @@ const FAQSection = () => {
                                 Bitcoin's price often goes up and down. Sometimes wildly. Whether you hold your bitcoin or convert it to local currency is ultimately your decision, as it should be.
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -165,7 +172,8 @@ const FAQSection = () => {
                                 How are bitcoin payments taxed?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="490px"
                                 lineHeight="1.7"
                                 mb={3}
                                 color="black"
@@ -173,15 +181,17 @@ const FAQSection = () => {
                                 The Bitcoin Merchant Community cannot offer tax advice. We recommend consulting a tax advisor about questions related to bitcoin income.
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
                                 lineHeight="1.7"
+                                maxW="470px"
                                 mb={3}
                                 color="black"
                             >
                                 But at a high level, like with all payments, you are required to charge taxes on goods sold in accordance with local laws.
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="480px"
                                 lineHeight="1.7"
                                 mb={3}
                                 color="black"
@@ -189,7 +199,8 @@ const FAQSection = () => {
                                 Additionally, depending on where you live, if you are holding on to the bitcoin you receive, you may incur capital gains taxes when you sell.
                             </Text>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="470px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -221,7 +232,8 @@ const FAQSection = () => {
                                 How is tipping handled with bitcoin?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="490px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -242,7 +254,8 @@ const FAQSection = () => {
                                 More questions?
                             </Heading>
                             <Text 
-                                fontSize={{ base: "16px", md: "18px" }}
+                                fontSize={{ base: "16px", md: "20px" }}
+                                maxW="450px"
                                 lineHeight="1.7"
                                 color="black"
                             >
@@ -267,6 +280,7 @@ const FAQSection = () => {
 };
 
 export default FAQSection;
+
 
 
 
