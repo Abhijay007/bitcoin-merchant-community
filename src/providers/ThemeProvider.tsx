@@ -13,7 +13,7 @@ const breakpoints = {
   sm: "480px",
   md: "768px",
   lg: "1024px",  // iPad Pro and larger tablets
-  xl: "1280px",  // Desktop
+  xl: "1100px",  // Desktop
   "2xl": "1536px",
 };
 
