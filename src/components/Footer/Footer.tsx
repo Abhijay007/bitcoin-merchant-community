@@ -24,7 +24,7 @@ const Footer = () => {
                         {/* Logo */}
                         <Flex align="center" mb={8}>
                             <Image 
-                                src="/assets/HeaderImages/logo.svg"
+                                src="/assets/HeaderImages/logo.png"
                                 alt="Bitcoin Merchant Community"
                                 width="200px"
                             />
