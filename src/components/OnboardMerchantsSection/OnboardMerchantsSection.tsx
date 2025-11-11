@@ -33,11 +33,7 @@ const OnboardMerchantsSection = () => {
                             w="100%"
                             h="auto"
                             loading="eager"
-                            style={{ 
-                                imageRendering: '-webkit-optimize-contrast',
-                                transform: 'translateZ(0)',
-                                backfaceVisibility: 'hidden'
-                            }}
+                            draggable={false}
                         />
                     </Box>
 

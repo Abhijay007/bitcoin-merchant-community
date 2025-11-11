@@ -1,5 +1,4 @@
 "use client";
-import { CacheProvider } from "@chakra-ui/next-js";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { Global, css } from "@emotion/react";
 
@@ -39,8 +38,8 @@ export const theme = extendTheme({ fonts, breakpoints, components });
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <CacheProvider>
-      <ChakraProvider theme={theme}>{children}</ChakraProvider>
+    <ChakraProvider theme={theme}>
+      {children}
       <Global
         styles={css`
           
@@ -62,20 +61,28 @@ export function Providers({ children }: { children: React.ReactNode }) {
             -webkit-user-drag: none;
             -webkit-touch-callout: none;
             -webkit-tap-highlight-color: transparent;
+          }
+
+          /* Force high-quality SVG rendering on all devices */
+          img[src$=".svg"] {
             image-rendering: -webkit-optimize-contrast;
             image-rendering: crisp-edges;
+            transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            will-change: transform;
+            shape-rendering: geometricPrecision;
           }
 
           /* Smooth scrolling and better performance on iOS */
           * {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
           }
         `}
       />
-    </CacheProvider>
+    </ChakraProvider>
   );
 }
 
