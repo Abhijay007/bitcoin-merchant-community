@@ -8,6 +8,15 @@ const fonts = {
   body: "'Inter', sans-serif",
 };
 
+const breakpoints = {
+  base: "0px",
+  sm: "480px",
+  md: "768px",
+  lg: "1024px",  // iPad Pro and larger tablets
+  xl: "1100px",  // Desktop
+  "2xl": "1536px",
+};
+
 const components = {
   Heading: {
     baseStyle: {
@@ -19,9 +28,14 @@ const components = {
       fontFamily: "'Inter', sans-serif",
     },
   },
+  Container: {
+    baseStyle: {
+      maxW: "1250px",
+    },
+  },
 };
 
-export const theme = extendTheme({ fonts, components });
+export const theme = extendTheme({ fonts, breakpoints, components });
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -43,12 +57,21 @@ export function Providers({ children }: { children: React.ReactNode }) {
           display: none; /* For Chrome, Safari, and Opera */
           }
 
-          /* Disable text selection globally */
+          /* Optimize images for iOS/WebKit */
+          img {
+            -webkit-user-drag: none;
+            -webkit-touch-callout: none;
+            -webkit-tap-highlight-color: transparent;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+          }
+
+          /* Smooth scrolling and better performance on iOS */
           * {
-            user-select: none;
-            -webkit-user-select: none; /* For Safari */
-            -moz-user-select: none; /* For Firefox */
-            -ms-user-select: none; /* For IE10+ */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
           }
         `}
       />
