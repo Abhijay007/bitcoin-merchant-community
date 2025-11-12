@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <Box 
             bg="white" 
-            pt={{ base: "30px", md: "50px", lg: "50px", xl: "170px" }}
+            pt={{ base: "100px", md: "130px", lg: "130px", xl: "170px" }}
             pb={{ base: "30px", md: "50px", lg: "50px", xl: "45px" }}
             px={{ base: "20px", md: "40px", lg: "40px", xl: "60px" }}
         >

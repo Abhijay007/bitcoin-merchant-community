@@ -5,11 +5,11 @@ const Header = () => {
     return (
         <Box 
             bg="white"
-            position={{ base: "relative", xl: "fixed" }}
-            top={{ base: "auto", xl: "0" }}
-            left={{ base: "auto", xl: "0" }}
-            right={{ base: "auto", xl: "0" }}
-            zIndex={{ base: "auto", xl: "1000" }}
+            position="fixed"
+            top="0"
+            left="0"
+            right="0"
+            zIndex="1000"
             px={{ base: "20px", md: "40px", lg: "40px", xl: "60px" }}
         >
             <Container>
