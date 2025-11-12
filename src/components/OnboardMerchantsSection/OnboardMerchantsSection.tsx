@@ -67,7 +67,7 @@ const OnboardMerchantsSection = () => {
                         </Text>
 
                         <Link 
-                            href="https://raw.githubusercontent.com/bitcoinmerchants/marketing-assets/main/Merchant%20Onbaording%20Kit.pdf" 
+                            href="https://raw.githubusercontent.com/bitcoinmerchants/marketing-assets/main/Merchant%20Onboarding%20Kit.pdf" 
                             fontSize={{ base: "16px", md: "20px" }}
                             fontWeight="700"
                             color="black"

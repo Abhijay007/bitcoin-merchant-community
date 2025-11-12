@@ -62,7 +62,7 @@ const ReceiveBitcoinSection = () => {
                             as="img"
                             src="/assets/ReceiveBitcoinImages/BitcoinButtonImage.png"
                             alt="Bitcoin key"
-                            maxW={{ base: "220px", sm: "280px", md: "3280px", lg: "280px", xl: "400px" }}
+                            maxW={{ base: "240px", sm: "300px", md: "330px", lg: "330px", xl: "400px" }}
                             w="100%"
                             h="auto"
                             sx={{

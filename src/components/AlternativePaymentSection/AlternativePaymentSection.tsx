@@ -46,8 +46,10 @@ const AlternativePaymentSection = () => {
                         <Link 
                             href="https://www.ibexpay.io/"
                             isExternal
-                            display="inline-block"
-                            mb={4}
+                            display="flex"
+                            alignItems="center"
+                            mb={8}
+                            height="60px"
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
@@ -73,8 +75,10 @@ const AlternativePaymentSection = () => {
                         <Link 
                             href="https://www.blink.sv/"
                             isExternal
-                            display="inline-block"
+                            display="flex"
+                            alignItems="center"
                             mb={4}
+                            height="60px"
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
@@ -95,13 +99,15 @@ const AlternativePaymentSection = () => {
                         </Text>
                     </Box> */}
 
-                    {/* Zaprite */}
+                    {/* Zaprite
                     <Box>
                         <Link 
                             href="https://zaprite.com/"
                             isExternal
-                            display="inline-block"
+                            display="flex"
+                            alignItems="center"
                             mb={4}
+                            height="60px"
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
@@ -123,6 +129,38 @@ const AlternativePaymentSection = () => {
                         >
                             Zaprite lets you connect a third-party wallet to self-custody any bitcoin you receive.
                         </Text>
+                    </Box> */}
+
+                    {/* BTCPay Server */}
+                    <Box>
+                        <Link 
+                            href="https://btcpayserver.org/"
+                            isExternal
+                            display="flex"
+                            alignItems="center"
+                            mb={8}
+                            height="60px"
+                            _hover={{ opacity: 0.7 }}
+                            transition="opacity 0.2s"
+                        >
+                            <Image 
+                                src="/assets/CompanyImages/btcpayserverLogo.svg"
+                                alt="BTCPay Server"
+                                maxW="300px"
+                                h="auto"
+                                width="170px"
+                                loading="eager"
+                                draggable={false}
+                            />
+                        </Link>
+                        <Text 
+                            fontSize={{ base: "16px", md: "20px" }}
+                            lineHeight="1.4"
+                            color="black"
+                            maxW="450px"
+                        >
+                            For tech-savvy merchants, BTCPay Server is a highly customizable, open-source alternative that needs to be hosted on your own server, or one you trust.
+                        </Text>
                     </Box>
 
                     {/* Swiss Bitcoin Pay
@@ -130,8 +168,10 @@ const AlternativePaymentSection = () => {
                         <Link 
                             href="https://swiss-bitcoin-pay.ch/"
                             isExternal
-                            display="inline-block"
+                            display="flex"
+                            alignItems="center"
                             mb={4}
+                            height="60px"
                             _hover={{ opacity: 0.7 }}
                             transition="opacity 0.2s"
                         >
