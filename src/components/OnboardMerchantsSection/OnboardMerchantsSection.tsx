@@ -25,14 +25,16 @@ const OnboardMerchantsSection = () => {
                         display="flex"
                         justifyContent="center"
                         alignItems="center"
+                        order={{ base: 2, xl: 1 }}
                     >
                         <Box
                             as="img"
-                            src="/assets/OnboardMerchantsImages/AcceptBitcoinImage.png"
-                            alt="Accept Bitcoin sticker"
-                            maxW={{ base: "200px", sm: "250px", md: "300px", lg: "300px", xl: "350px" }}
+                            src="/assets/OnboardMerchantsImages/marketingkit.png"
+                            alt="marketing kit"
+                            maxW={{ base: "200px", sm: "250px", md: "250px", lg: "300px", xl: "300px" }}
                             w="100%"
                             h="auto"
+                            filter="drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.25))"
                             sx={{
                                 imageRendering: 'auto',
                                 WebkitUserSelect: 'none',
@@ -45,6 +47,7 @@ const OnboardMerchantsSection = () => {
                     <Box 
                         flex="1" 
                         maxW={{ base: "100%", xl: "600px" }}
+                        order={{ base: 1, xl: 2 }}
                     >
                         <Heading 
                             as="h2"
