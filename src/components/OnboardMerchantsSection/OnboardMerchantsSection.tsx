@@ -154,7 +154,7 @@ const OnboardMerchantsSection = () => {
                             </Text>
 
                             <Link 
-                                href="#" 
+                                href="https://discord.gg/G7VPEXR4Ew" 
                                 fontSize={{ base: "16px", md: "20px" }}
                                 fontWeight="700"
                                 color="black"

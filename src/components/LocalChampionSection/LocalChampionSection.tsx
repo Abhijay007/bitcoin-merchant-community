@@ -66,7 +66,7 @@ const LocalChampionSection = () => {
                         </Text>
 
                         <Link 
-                            href="#" 
+                            href="https://tally.so/r/Bzz5qQ" 
                             fontSize={{ base: "16px", md: "20px" }}
                             fontWeight="700"
                             color="black"
